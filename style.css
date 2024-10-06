@@ -11,6 +11,18 @@ body {
  font-style: normal;
 }
 
+.logo-div {
+  
+  width: 80%;
+  margin: 40px auto;
+  display: flex;
+  
+}
+
+.logo {
+  margin: auto;
+  width: 100px;
+}
 
 .container {
  background-color: hsl(0, 0%, 100%);
