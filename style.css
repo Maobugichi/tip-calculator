@@ -12,11 +12,9 @@ body {
 }
 
 .logo-div {
-  
   width: 80%;
   margin: 40px auto;
   display: flex;
-  
 }
 
 .logo {
@@ -170,6 +168,7 @@ body {
 
 .show {
  display: block;
+ color: red;
 }
 .right {
  background-color: hsl(183, 100%, 15%);
@@ -246,7 +245,7 @@ input:focus {
   flex-direction: column;
   margin: 0px auto;
   width: 95%;
-  height: 100vh;
+  height: 120vh;
   }
   
   .left {
@@ -326,6 +325,7 @@ input:focus {
   .custom::placeholder {
    padding-left: 25px;
   }
+
   
   .btn:hover {
    background-color:   hsl(172, 67%, 45%);
@@ -356,5 +356,8 @@ input:focus {
    width: 100%;
   }
    
+  .reset {
+      height: 60px;
+  }
    
 }
